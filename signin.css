@@ -1,0 +1,56 @@
+body{
+    top: 15%;
+    left:40%;
+    display: block;
+    background: #ccc;
+}
+
+.container{
+    border: 5px solid rgb(0, 0, 0);
+    width:300px;
+    height: 300px;
+    position: relative;
+    background:rgb(63, 218, 179); 
+    margin: auto;
+    top:200px;
+
+}
+.container h4{
+    position:absolute;
+    left:120px;
+    top:60px;
+    text-align: center;
+}
+#button:hover{
+    color: black;
+    background: rgb(243, 169, 169);
+}
+
+
+.myform{
+    position:absolute;
+    top:40%;
+    margin: auto;
+    left: 20%;
+    text-align: center;
+    background: white;
+}
+.box{
+    /* position: absolute; */
+ border: 1px solid black;
+ padding: 10px;
+ margin:auto;
+
+}
+#button{
+    position: absolute;
+    left:30%;
+    top: 120%;
+    background: black;
+    color: aliceblue;
+    border:1px solid;
+}
+input {
+    border-style: none;
+    outline: none;
+}

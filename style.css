@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#ccc;
+    line-height: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    left: 20px;
+    top:20px;
+
+     
+}
+
+.welcome{
+   
+    background-image: url('images.jpg');
+    color: #ccc;
+    min-height: 430px;
+background-position: center center;
+margin-bottom:30px; 
+  
+}
+p{
+    text-align: center;
+}
+.clr{
+   clear: both;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    transition-property: all;
+    transition-duration: 2s; 
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#header{
+    background: #f77847;
+    color: black;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    
+}
+#header h1{
+    margin-top:05px;
+    height: 35px;
+    width: 125px;
+    position: absolute;
+    text-align: center;
+    border:3px solid black;
+    top:30%;
+    color: aliceblue;
+    left:40%;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: red;
+}
+.belowheader ul {
+    position: relative;;
+    list-style-type: none;
+    background:  rgb(243, 215, 57);
+    color: #ccc;
+ /* height: 40px; */
+    width: 100%;
+}
+.belowheader li{
+    display: inline;
+    left:50px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+
+}
+.id1{
+    float: right;
+}
+li:hover{
+    background: #10d5f8d7;
+}
+
+
+
+.d1 h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.d1 {
+float: left;
+width: 33.3%;
+/* border:1px solid #000; */
+padding:20px;
+/* margin:0.5%; */
+box-sizing: border-box;
+background: rgba(20, 20, 20, 0.911);
+color: white;
+min-height: 400px;
+width: 33.3%;
+border:2px solid white;
+}
+
+.about .d1{
+min-height:30px;
+}
+.welcome p{
+    font-size:30px;
+    line-height: 1.6em;
+    padding-top:30px; 
+    text-align: center;
+}
+.image1{
+    background: #ccc;
+    color: black;
+  transition-property: all;
+  margin: 20px;
+  border:2px solid white;
+
+}
+.image:hover{
+border-radius: 50% 50% 50% 50%;
+transform: rotateY(180deg);
+
+}
+.image1:hover{
+    background: black;
+    color: aliceblue;
+}
+.about .d1{
+    position: asolute;
+    text-align: center;
+border:2px solid black;
+border-right:2px solid black; 
+top:-10px;
+}
